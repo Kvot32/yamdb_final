@@ -1,1 +1,1 @@
-[![yamdb_final](https://github.com/Kvot32/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg?branch=feature-1)](https://github.com/Kvot32/yamdb_final/actions/workflows/yamdb_workflow.yml)
+https://github.com/Kvot32/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg
