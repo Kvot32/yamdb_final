@@ -1,2 +1,1 @@
-# yamdb_final
-yamdb_final
+[![yamdb_final.yml](https://github.com/Kvot32/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/Kvot32/yamdb_final/actions/workflows/yamdb_workflow.yml)
