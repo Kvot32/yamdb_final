@@ -54,7 +54,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          repository: kvot32/api_yamdb:v1.0
+          repository: kvot32/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
