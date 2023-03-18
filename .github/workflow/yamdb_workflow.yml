@@ -21,7 +21,9 @@ jobs:
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
         # установка зависимостей
         cd api_yamdb/
-        pip install -r requirements.txt 
+        pip install -r requirements.txt
+    - name: Pytest
+      run: pytest
 
     - name: Test with flake8 and django tests
       run: |
@@ -54,7 +56,9 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          repository: kvot32/yamdb_final:latest
+          context: ./api_yamdb/
+          tags: kvot32/yamdb_final:latest
+
 
   deploy:
     runs-on: ubuntu-latest
