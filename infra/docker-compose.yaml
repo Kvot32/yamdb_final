@@ -5,7 +5,7 @@ services:
     volumes:
       - /var/lib/postgresql/data/
     env_file:
-      - ./infra/env
+      - ./.env
   web:
     image: kvot32/api_yamdb:v1.0
     restart: always
@@ -15,7 +15,7 @@ services:
     depends_on:
       - db
     env_file:
-      - ./infra/env
+      - ./.env
   nginx:
     image: nginx:1.21.3-alpine
     ports:
