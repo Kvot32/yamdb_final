@@ -23,6 +23,9 @@ jobs:
         cd api_yamdb/
         pip install -r requirements.txt 
 
+    - name: Pytest
+      run: pytest
+
     - name: Test with flake8 and django tests
       run: |
         # запуск проверки проекта по flake8
