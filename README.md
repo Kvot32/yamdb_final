@@ -45,8 +45,7 @@
 
 ```docker-compose exec web python manage.py createsuperuser``` - создание суперюзера
 
-```docker-compose exec web python manage.py collectstatic --no-input``` - сбор статических файлов
- 
+```docker-compose exec web python manage.py collectstatic --no-input``` - сбор статических файлов 
 
 ### Процесс заполнения БД из CSV-файлов
 
