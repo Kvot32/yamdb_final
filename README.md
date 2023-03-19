@@ -75,4 +75,6 @@
 
 ![yamdb_final](https://github.com/Kvot32/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
+Публичный ip для подключения к серверу: 51.250.1.231
+
 
